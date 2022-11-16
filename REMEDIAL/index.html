@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="#A8CBAB">
+    <header>
+        <img src="src/logo.png" alt="logo" width="70px">
+        <h1>rarephies registration form</h1>
+    </header>
+    <article>
+        <form action="redirect.html">
+            <div class="input-group">
+                <label class="label">Full Name</label>
+                <input autocomplete="off" name="Email" id="Email" class="input" type="text" required>
+                <div></div>
+                <label class="label">Home Address</label>
+                <input name="Email" id="Email" class="input" type="text" required>
+                <div></div>
+                <label class="label">Email Address</label>
+                <input name="Email" id="Email" class="input" type="email" required>
+                <div></div>
+                <label class="label">School</label>
+                <input name="School" id="School" class="input" type="text" required list="school">
+                <div></div>
+                <datalist id="school">
+                    <option value="STI College Sta. Maria">
+                    <option value="STI College Sta. Mesa">
+                    <option value="STI College Caloocan">
+                    <option value="STI College ORCA">
+                </datalist>
+                <label class="label">Phone/Tel</label>
+                <input name="Tel" id="School" class="input" type="tel">
+                <label class="label">Student Number</label>
+                <input name="studentNumb" id="studentNumb" class="input" type="text" required>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div>
+                <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #05060f91;">GENDER</h3>
+                <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #05060f91;">
+                    <input type="radio" name="male" value="male"> Male
+                    <input type="radio" name="female" value="female"> Female
+                    <input type="radio" name="nonBinary" value="nonBinary"> Non-Binary
+                </h4>
+            </div>
+
+            <div>
+                <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #05060f91;">HOBBIES</h3>
+                <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #05060f91;">
+                    <input type="checkbox" name="male" value="male"> Basketball
+                    <input type="checkbox" name="female" value="female"> Volleyball
+                    <input type="checkbox" name="nonBinary" value="nonBinary"> Badminton
+                    <input type="text" class="input"> Other
+                </h4>
+            </div>
+
+            <button>
+                <span class="button_top"> SUBMIT
+                </span>
+            </button>
+        </form>
+    </article>
+</body>
+
+<footer>
+    <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #05060f91;">some css styles are
+        credited to <a href="https://uiverse.io/">uiverse.io</a></h4>
+</footer>
+
+</html>
